@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "titulo": "Exercícios Python para Iniciantes",
+    "versao": "1.0",
+    "niveis": [
+      "iniciante",
+      "intermediario"
+    ]
+  },
+  "categorias": [
+    {
+      "nome": "Variáveis e Tipos de Dados",
+      "exercicios": [
+        {
+          "id": 1,
+          "titulo": "Olá, Mundo!",
+          "nivel": "iniciante",
+          "enunciado": "Escreva um programa que imprima 'Olá, Mundo!' na tela.",
+          "dica": "Use a função print().",
+          "exemplo_saida": "Olá, Mundo!",
+          "solucao": "print('Olá, Mundo!')",
+          "conceitos": [
+            "print",
+            "strings"
+          ]
+        },
+        {
+          "id": 2,
+          "titulo": "Soma de Dois Números",
+          "nivel": "iniciante",
+          "enunciado": "Peça ao usuário dois números e mostre a soma deles.",
+          "dica": "Use input() e int().",
+          "exemplo_entrada": "5, 7",
+          "exemplo_saida": "12",
+          "solucao": "a = int(input())\nb = int(input())\nprint(a + b)",
+          "conceitos": [
+            "input",
+            "int",
+            "operadores"
+          ]
+        }
+      ]
+    }
+  ]
+}

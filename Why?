@@ -1,0 +1,12 @@
+Uma plataforma de aprendizado python 100% CLI
+Que utilizaria Flags a cada projeto
+
+Ex:
+===============================
+= * Qual nivel quer iniciar?  =
+===============================
+= 1 - Iniciante (Sintaxe)     = 
+= 2 - Intermediario (funções) =
+= 3 - Avançado (POO)          =
+===============================
+

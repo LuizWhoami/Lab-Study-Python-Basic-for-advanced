@@ -24,8 +24,9 @@ def initial():
     = 0 - Finalizar               =
     ===============================
     """)
-
+id1 = 0
 def exercicio_1():
+    global id1
     os.system("clear")
     initial()
     escolha = int(input('Sua Escolha:'))
@@ -33,9 +34,10 @@ def exercicio_1():
     if escolha == 1:
         with open("exercicios1.json", "r", encoding="utf-8") as f:
             dados = json.load(f)
-        id1 = 1
+        
         for categoria in dados["categorias"]:
             for exercicio in categoria["exercicios"]:
+                id1 += 1
                 if exercicio["id"] == id1:
                     print(f"""{AMARELO}
     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -60,8 +62,11 @@ def exercicio_1():
     ==========================================================
                         """)
                         print(f"{VERMELHO_CLARO}Está errado")
+                        os.system("clear")
+    initial()
     if escolha == 0:
         exit()
+        os.system("clear")
 exercicio_1()
 
 print("""
